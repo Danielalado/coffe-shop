@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@11.0.4/swiper-bundle.min.css"
+    />
     <!-- font awesome link  -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
 
      <link rel="stylesheet" href="./css/style.css"/>
+     <link rel="stylesheet" href="./js/script.js">
     <title>Coffe Shop</title>
 </head>
 <body>
     <header class="header">
-        <!-- <div id="menu btn" class="fas fa-bars"></div> -->
+        <div id="menu-btn" class="fas fa-bars"></div>
         <a href="#" class="logo">Coffe <i class="fa-solid fa-mug-hot"></i></a>
         <nav class="navbar">
             <a href="#home">Home</a>
@@ -147,16 +152,6 @@
                     <span class="price">$4.99</span>
                 </div>
             </a>
-             <!-- <a href="#" class="box">
-                <img src="./images/menu-1.png" alt="">
-                <div class="content">
-                    <h3>fresh coffe</h3>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, ratione.
-                    </p>
-                    <span class="price">$4.99</span>
-                </div>
-            </a> -->
         </div>
     </section>
     <!-- menu section ends here -->
@@ -167,27 +162,27 @@
 
         <div class="swiper review-slider">
             <div class="swiper-wrapper">
-                <div class="swiper slid-box">
+                <div class="swiper-slide box">
+
                     <i class="fas fa-quote-left"></i>
                     <i class="fas fa-quote-right"></i>
                     <img src="./images/pic-1.png" alt="">
                     <div class="stars">
-                        <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     </div>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consectetur!
+
+                    </p>
+                    <h3>Gifty Dede</h3>
+                    <span>Happy Client</span>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consectetur!
 
-                </p>
-                <h3>Gifty Dede</h3>
-                <span>Happy Client</span>
-            </div>
-
-            <div class="swiper-wrapper">
-                <div class="swiper slid-box">
+                <div class="swiper-slide box">
                     <i class="fas fa-quote-left"></i>
                     <i class="fas fa-quote-right"></i>
                     <img src="./images/pic-2.png" alt="">
@@ -198,16 +193,15 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     </div>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consectetur!
+
+                    </p>
+                    <h3>Gifty Dede</h3>
+                    <span>Happy Client</span>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consectetur!
 
-                </p>
-                <h3>Gifty Dede</h3>
-                <span>Happy Client</span>
-            </div>
-
-            <div class="swiper-wrapper">
-                <div class="swiper slid-box">
+                <div class="swiper-slide box">
                     <i class="fas fa-quote-left"></i>
                     <i class="fas fa-quote-right"></i>
                     <img src="./images/pic-3.png" alt="">
@@ -218,16 +212,15 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     </div>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consectetur!
+
+                    </p>
+                    <h3>Gifty Dede</h3>
+                    <span>Happy Client</span>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consectetur!
 
-                </p>
-                <h3>Gifty Dede</h3>
-                <span>Happy Client</span>
-            </div>
-
-            <div class="swiper-wrapper">
-                <div class="swiper slid-box">
+                <div class="swiper-slide box">
                     <i class="fas fa-quote-left"></i>
                     <i class="fas fa-quote-right"></i>
                     <img src="./images/pic-4.png" alt="">
@@ -238,13 +231,17 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     </div>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consectetur!
 
-                </p>
-                <h3>Gifty Dede</h3>
-                <span>Happy Client</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consectetur!
+
+                    </p>
+                    <h3>Gifty Dede</h3>
+                    <span>Happy Client</span>
+                </div>
+                
             </div>
+
+           
         </div>
      </section>
 
@@ -253,7 +250,8 @@
      <!-- book section starts here -->
       <section id="book" class="book">
         <h2 class="heading">book <span>now</span></h2>
-        <form action="">
+        <div class="book">
+            <form action="">
             <input type="text" placeholder="Name" class="box">
             <input type="email" placeholder="Email" class="box">
             <input type="number" placeholder="number" class="box">
@@ -267,13 +265,15 @@
             id=""></textarea>
             <input type="submit" class="btn" value="send message">
         </form>
+        </div>
+        
       </section>
      <!-- book section ends here  -->
 
      <!-- footer section starts here -->
      <section class="footer">
         <div class="footer-container">
-            <p>Made with <i class="fas fa-heart"></i>Kortsa Hussle</p>
+            <p>Made with <i class="fas fa-heart"></i>Daniel Alado</p>
         </div>
      </section>
       <!-- footer section ends here -->
