@@ -353,16 +353,37 @@ section{
 }
 
 #book .book{
+    /* background-color: brown; */
+    /* height: 35rem; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 4rem;
+    /* gap: 2rem; */
     }
 
-/* .book form, input{
-    margin: 1rem auto 1rem auto;
-} */
+.book input{
+    padding-left: 2rem;
+    margin: 1rem auto auto auto;
+    width: 50rem;
+    height: 5rem;
+    border-radius: var(--border-radius);
+    border: var(--border);
+}
 
+.book form #text{
+    padding-left: 2rem;
+    margin-top: 1rem;
+    height: 5rem;
+    width: 50rem;
+    border-radius: var(--border-radius);
+    border: var(--border);
+}
+
+#btn{
+    /* background-color: aqua; */
+    width: 15rem;
+    height: 5rem;
+}
 
 /* footer section starts here */
 
@@ -374,6 +395,6 @@ section{
 }
 
 .footer-container p i{
-    color: red;
+    color: rgb(5, 145, 58);
 }
 
