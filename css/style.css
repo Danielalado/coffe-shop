@@ -1,3 +1,5 @@
+/* universal stylling starts here  */
+
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Oxygen:wght@300;400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
@@ -29,7 +31,6 @@ html{
 section{
     padding: 2rem 9%;
 }
-
 /* universal stylling ends here  */
 
 /* header sections starts here  */
@@ -339,6 +340,7 @@ section{
 #menu-btn{
     display: none;
 }
+/* review section starts here   */
 
 /* book section starts here */
 #book{
@@ -353,8 +355,6 @@ section{
 }
 
 #book .book{
-    /* background-color: brown; */
-    /* height: 35rem; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -375,6 +375,7 @@ section{
     margin-top: 1rem;
     height: 5rem;
     width: 50rem;
+    height: 15rem;
     border-radius: var(--border-radius);
     border: var(--border);
 }
@@ -384,6 +385,8 @@ section{
     width: 15rem;
     height: 5rem;
 }
+/* book section starts here  */
+
 
 /* footer section starts here */
 
@@ -395,6 +398,7 @@ section{
 }
 
 .footer-container p i{
-    color: rgb(5, 145, 58);
+    color: green;
 }
+/* footer section starts here */
 
